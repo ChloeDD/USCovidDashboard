@@ -1,0 +1,76 @@
+:root{
+  --main_color_1: #49D587;
+  --main_color_2: #5AC58A;
+  --user_color_red: #FF7575;
+  --user_color_orange: #FFAA7C;
+  --user_color_blue: #74B6ff;
+  --user_color_indigo: #729dff;
+  --user_color_purple: #8e75ff;
+  --user_color_violet: #aa73ff;
+  --heading_color_1: #203442;
+  --heading_color_2: #2F4656;
+  --heading_color_3: #3e5463;
+  --heading_color_4: #536876;
+  --text_line_bg_color_1: #7e8998;
+  --text_line_bg_color_2: #98a2b0;
+  --text_line_bg_color_3: #b3bcc9;
+  --text_line_bg_color_4: #c0c9d5;
+  --text_line_bg_color_5: #d3dbe3;
+  --text_line_bg_color_6: #e8edf2;
+  --text_line_bg_color_7: #ebf3f7;
+  --text_line_bg_color_8: #ffffff;
+  --text_font_family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 56px;
+  color: var(--heading_color_1);
+}
+h2{
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: medium;
+  line-height: 46px;
+  color: var(--heading_color_2);
+}
+h3{
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: medium;
+  line-height: 38px;
+  color: var(--heading_color_3);
+}
+h4{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: regular;
+  line-height: 34px;
+  color: var(--heading_color_4);
+}
+h5{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: regular;
+  line-height: 28px;
+  color: var(--heading_color_4);
+}
+p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 23px;
+  color: var(--text_line_bg_color_1);
+}
+.custom-tab{
+  background-color: var(--text_line_bg_color_7) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.custom-tab--selected{
+  background-color: var(--text_line_bg_color_8) !important;
+  font-family: var(--text_font_family);
+}
+.dash-table-container{
+  background-color: var(--text_line_bg_color_6) !important;
+}

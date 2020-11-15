@@ -149,9 +149,13 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 app.layout = html.Div([
     html.H1("US Covid Data Dashboard", style={"textAlign": "center"}), 
     dcc.Markdown('''US covid data visualization using CDC public data''', style={"textAlign": "center"}),
-    dcc.Tabs(id="tabs", children=[
+    dcc.Tabs(
+        id="tabs", 
+        children=[
         dcc.Tab(
             label='Daily Summary',
+            className ='custom-tab',
+            selected_className ='custom-tab--selected',
             children=[
                 html.Div([
                     html.H2(
@@ -166,7 +170,10 @@ app.layout = html.Div([
                         columns=[ {'name': i, 'id': i} for i in USTopNewCases.columns],
                         data=USTopNewCases.iloc[0:5, :].to_dict('rows'),
                         style_header={'backgroundColor': 'rgb(230, 230, 230)','fontWeight': 'bold'},
-                        style_cell={'textAlign': 'center'},
+                        style_cell={
+                            'textAlign': 'center',
+                            'font-family' : 'var(--text_font_family)'
+                        },
                         style_data={"margin-left": "auto","margin-right": "auto"}),
                     html.H3(
                         "Top 5 States with the Highest Death Rate",
@@ -176,7 +183,10 @@ app.layout = html.Div([
                         columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
                         data=death_rate_rank.iloc[0:5, :].to_dict('rows'),
                         style_header={'backgroundColor': 'rgb(230, 230, 230)', 'fontWeight': 'bold'},
-                        style_cell={'textAlign': 'center'},
+                        style_cell={
+                            'textAlign': 'center',
+                            'font-family' : 'var(--text_font_family)'
+                        },
                         style_data={"margin-left": "auto", "margin-right": "auto"}),
                     html.H3(
                         "Covid Risk Level",
@@ -187,6 +197,8 @@ app.layout = html.Div([
         # First Tab
         dcc.Tab(
             label='US Total Cases',
+            className ='custom-tab',
+            selected_className ='custom-tab--selected',
             children=[
                 html.Div([
                     html.H3(
@@ -208,6 +220,8 @@ app.layout = html.Div([
         # Second Tab
         dcc.Tab(
             label='US Death Rate',
+            className ='custom-tab',
+            selected_className ='custom-tab--selected',
             children=[
                 html.Div([
                     html.H1("US Death Rate by States", style={"textAlign": "center"}),
@@ -225,7 +239,10 @@ app.layout = html.Div([
                         dcc.Graph(id='us_death_rate')])
                     ]),
         # Third Tab
-        dcc.Tab(label='US Case Surveillance')
+        dcc.Tab(
+            label='US Case Surveillance',
+            className ='custom-tab',
+            selected_className ='custom-tab--selected')
     ])
 ])
 
