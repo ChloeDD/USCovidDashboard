@@ -1,0 +1,9 @@
+glog
+sodapy
+dash
+numpy
+pandas
+dash
+dash-bootstrap-components
+plotly
+ipywidgets
