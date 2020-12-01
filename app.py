@@ -140,7 +140,6 @@ app.layout = html.Div([
                         style={'fontSize':'40','textAlign': 'left', 'fontColor':'black',
                         'marginLeft': 50, 'marginBottom': 30, 
                         'marginTop': 30}),
-                        # todo: unify units here
                     html.H3(
                         "Top 5 States with the Most New Cases",
                         style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
@@ -188,7 +187,7 @@ app.layout = html.Div([
                     
                     html.H3(
                         "COVID Risk Level",
-                        style={"textAlign": "center", 'marginBottom': 30, 'marginTop': 30}),
+                        style={"textAlign": "left", 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                          dcc.Markdown('''
                          If we use CA risk level definition(using only Adjusted case rate definition), 
                          we can see how widespread the COVID case growth has been at states level. 
