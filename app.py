@@ -123,6 +123,8 @@ data = usDataDf2[usDataDf2['Date'] == data_str]
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 # app = dash.Dash(__name__, external_stylesheets=external_scripts)
 
+title_shared_style = {'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}
+
 app.layout = html.Div([
     html.H1("US Covid Data Dashboard", style={"textAlign": "center"}), 
     dcc.Markdown('''US covid data visualization using CDC public data''', style={"textAlign": "center"}),
@@ -141,21 +143,19 @@ app.layout = html.Div([
                         'marginLeft': 50, 'marginBottom': 30, 
                         'marginTop': 30}),
                     html.H3(
-                        "Top 5 States with the Most New Cases",
-                        style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                        "Top 5 States with the Most New Cases Today",
+                        style=title_shared_style),
                     dash_table.DataTable(
                         id='table2',
                         columns=[ {'name': i, 'id': i} for i in USTopNewCases.columns],
-                        data=USTopNewCases.iloc[0:5, :].to_dict('rows'),
-                        style_data={"margin-left": "auto","margin-right": "auto"}),
+                        data=USTopNewCases.iloc[0:5, :].to_dict('rows')),
                     html.H3(
                         "Top 5 States with the Highest Death Rate",
-                        style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                        style=title_shared_style),
                     dash_table.DataTable(
                         id='table3',
                         columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
-                        data=death_rate_rank.iloc[0:5, :].to_dict('rows'),
-                        style_data={"margin-left": "auto", "margin-right": "auto"}),
+                        data=death_rate_rank.iloc[0:5, :].to_dict('rows')),
                     html.H3(
                         "Covid Risk Level",
                         style={"textAlign": "left", 'marginBottom': 30, 'marginTop': 30}),
@@ -177,18 +177,18 @@ app.layout = html.Div([
                                 'Adjusted Case Rate']],
                                 value='new_case',
                                 labelStyle={'display': 'inline-block'}
-            )],
+                                )
+                                ],
                                 style={"display": "block",
                                         "marginLeft": "auto",
                                         "marginRight": "auto",
                                         "width": "80%"}),
                             ]),
-                        dcc.Graph(id='us_new_cases'),
-                    
+                    dcc.Graph(id='us_new_cases'),
                     html.H3(
                         "COVID Risk Level",
-                        style={"textAlign": "left", 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
-                         dcc.Markdown('''
+                        style=title_shared_style),
+                    dcc.Markdown('''
                          If we use CA risk level definition(using only Adjusted case rate definition), 
                          we can see how widespread the COVID case growth has been at states level. 
 
@@ -197,7 +197,6 @@ app.layout = html.Div([
 
                         CA Blueprint for a Safer Economy [links]:(https://covid19.ca.gov/safer-economy/)
                         ''', 
-                    style={"textAlign": "left", 'marginLeft': 50, 'marginRight': 50}),
                     html.Div([
                         html.Div([dcc.RadioItems(
                                 id='selected-risk-col',
@@ -223,15 +222,14 @@ app.layout = html.Div([
                 html.Div([
                     html.H4(
                         "Top 5 States by Total Covid Cases", 
-                        style={'textAlign': 'left','marginBottom': 100, 'marginTop': 100}),
+                        style=title_shared_style),
                     dash_table.DataTable(
                         id='table',
                         columns=[{"name": i, "id": i} for i in topCases.columns],
-                        data=topCases.iloc[0:5, :].to_dict("rows"),
-                        style_data={"margin-left": "auto", "margin-right": "auto"}),
+                        data=topCases.iloc[0:5, :].to_dict("rows")),
                     html.H3(
                         "Covid Cases by States Animation", 
-                        style={"textAlign": "center", 'marginBottom': 100, 'marginTop': 100}),
+                        style=title_shared_style),
                     dcc.Graph(figure=fig)
                     ])
             ]),
