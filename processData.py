@@ -47,6 +47,9 @@ def process_population_data(input_file):
 def check_download(date, filesource, dataquery, filenamePrefix, folder):
     """Daily checker to see how if files have been updated on CDC website"""
 
+    # Crate folder if not exist
+    if not os.path.exists(folder):
+        os.makedirs(folder)
     # Download State Data
     daterange = pd.date_range('2020-01-24', date)
     
@@ -121,7 +124,10 @@ def consolidate_state_data():
     test['Risk Level'] = np.select(conditions, values)
     test = test.dropna(subset=['Population', 'State or Region Code'])
 
-    test.to_csv('./ProdData/USDatabyStates.csv')
+    prod_data_folder = './ProdData'
+    if not os.path.exists(prod_data_folder):
+        os.makedirs(prod_data_folder)
+    test.to_csv('{}/USDatabyStates.csv'.format(prod_data_folder))
 
     return test
 
