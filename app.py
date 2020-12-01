@@ -148,19 +148,21 @@ app.layout = html.Div([
                         id='table2',
                         columns=[ {'name': i, 'id': i} for i in USTopNewCases.columns],
                         data=USTopNewCases.iloc[0:5, :].to_dict('rows'),
-                        style_header={'backgroundColor': 'rgb(230, 230, 230)','fontWeight': 'bold'},
-                        style_cell={
-                            'textAlign': 'center',
-                            'font-family' : 'var(--text_font_family)'
-                        },
                         style_data={"margin-left": "auto","margin-right": "auto"}),
-
-                    html.H4(
-                        "US New Cases",
+                    html.H3(
+                        "Top 5 States with the Highest Death Rate",
+                        style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                    dash_table.DataTable(
+                        id='table3',
+                        columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
+                        data=death_rate_rank.iloc[0:5, :].to_dict('rows'),
+                        style_data={"margin-left": "auto", "margin-right": "auto"}),
+                    html.H3(
+                        "Covid Risk Level",
                         style={"textAlign": "left", 'marginBottom': 30, 'marginTop': 30}),
                     dcc.Graph(figure=us_bar),
                     
-                    html.H4("US New Cases by States", style={"textAlign": "left", 
+                    html.H3("US New Cases by States", style={"textAlign": "left", 
                     'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                     html.Div([
                         html.Div([
@@ -227,8 +229,6 @@ app.layout = html.Div([
                         id='table',
                         columns=[{"name": i, "id": i} for i in topCases.columns],
                         data=topCases.iloc[0:5, :].to_dict("rows"),
-                        style_header={'backgroundColor': 'rgb(230, 230, 230)', 'fontWeight': 'bold'},
-                        style_cell={'textAlign': 'center'},
                         style_data={"margin-left": "auto", "margin-right": "auto"}),
                     html.H3(
                         "Covid Cases by States Animation", 

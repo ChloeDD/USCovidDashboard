@@ -64,13 +64,25 @@ p{
   line-height: 23px;
   color: var(--text_line_bg_color_1);
 }
+th{
+  background-color: var(--text_line_bg_color_6) !important;
+  font-family : var(--text_font_family) !important; 
+  font-weight: bold !important;
+  text-align: center !important;
+}
+td{
+  background-color: var(--text_line_bg_color_8);
+  text-align: center !important;
+  font-family : var(--text_font_family)
+}
 .custom-tab{
   background-color: var(--text_line_bg_color_7) !important;
-  font-family: var(--text_font_family);
+  font-family: var(--text_font_family) !important;
+  font-weight: bold !important;
 }
 .custom-tab--selected{
   background-color: var(--text_line_bg_color_8) !important;
-  font-family: var(--text_font_family);
+  font-family: var(--text_font_family) !important;
 }
 .dash-table-container{
   background-color: var(--text_line_bg_color_6) !important;
