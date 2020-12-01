@@ -141,7 +141,7 @@ app.layout = html.Div([
                         'marginLeft': 50, 'marginBottom': 30, 
                         'marginTop': 30}),
                         # todo: unify units here
-                    html.H4(
+                    html.H3(
                         "Top 5 States with the Most New Cases",
                         style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                     dash_table.DataTable(
