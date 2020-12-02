@@ -49,10 +49,7 @@ def check_download(date, filesource, dataquery, filenamePrefix, folder):
 
     # Download State Data
     daterange = pd.date_range('2020-01-24', date)
-    # for file in os.listdir(folder):
-    #     print(file.split('.')[0][-10:])
-    #     pdb.set_trace()
-    #     print(datetime.datetime.strptime(file[-10:], '%Y-%m-%d'))
+    
     datelist = [datetime.datetime.strptime(file.split(
         '.')[0][-10:], '%Y-%m-%d') for file in os.listdir(folder)]
     missing_dates = [d for d in daterange if d not in datelist]
@@ -89,8 +86,8 @@ def consolidate_state_data():
         usDataDf = usDataDf.append(
             df[['Date', 'submission_date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death']])
 
-    usDataDf['death rate'] = usDataDf['tot_death'].astype(float) / usDataDf['tot_cases'].astype(float)
-    usDataDf['death rate'] = usDataDf['death rate'].fillna(0)
+    usDataDf['case fatality rate'] = usDataDf['tot_death'].astype(float) / usDataDf['tot_cases'].astype(float)
+    usDataDf['case fatality rate'] = usDataDf['case fatality rate'].fillna(0)
 
     pop = process_population_data('./data/pop.html')
     newrow = {'State or Region Code': 'NYC', 'Population': 8336817}
@@ -101,15 +98,22 @@ def consolidate_state_data():
         left_on='state',
         right_on='State or Region Code',
         how='outer')
+
+    test['death rate'] = round((100.0*test['tot_death'].astype(float)) / test['Population'],8)
+    test['death rate'] = test['death rate'].fillna(0)
+
     test['Total Cases per Population'] = test['tot_cases'] / test['Population']
     test['New Cases per Population'] = test['new_case'] / test['Population']
-    test['7 day average new cases with 7 day lag'] = 100000 * \
-        (test['new_case'].shift(7).rolling(window=7).mean()) / test['Population']
-    col = '7 day average new cases with 7 day lag'
+    
+    test['7 day average new cases'] = test.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
+    test['7 day average new cases'] = round(test['7 day average new cases'],0)
+    test['Adjusted Case Rate'] = round(100000 * test['7 day average new cases'] / test['Population'],0)
+    
+    col = 'Adjusted Case Rate'
     conditions = [(test[col] < 1.0),
                   (test[col] >= 1.0) & (test[col] < 4.0),
-                  (test[col] >= 4) & (test[col] < 7),
-                  (test[col] >= 7)]
+                  (test[col] >= 4.0) & (test[col] < 7.0),
+                  (test[col] >= 7.0)]
     values = ['Minimal Tier 4', 'Moderate Tier 3', 'Substantial Tier 2', 'Widespread Tier 1']
     test['Risk Level'] = np.select(conditions, values)
     test = test.dropna(subset=['Population', 'State or Region Code'])
@@ -117,3 +121,28 @@ def consolidate_state_data():
     test.to_csv('./ProdData/USDatabyStates.csv')
 
     return test
+
+
+def consolidate_case_surv_data():
+    """ consolidate case surveillance data"""
+
+    path = './CaseSurveillanceData'
+    cols = ['cdc_report_dt', 'onset_dt', 'current_status', 'sex',
+       'age_group', 'race_ethnicity_combined', 'hosp_yn', 'icu_yn', 'death_yn',
+       'medcond_yn']
+
+    cons_df = pd.DataFrame(columns=cols)
+    for file in os.listdir(path):
+        if os.stat(os.path.join(path,file)).st_size <= 4:
+            
+            glog.info('File {} is empty'.format(file))
+            
+        else:
+            dt = os.path.basename(file).split('.')[0][-10:]
+            df = pd.read_csv(os.path.join(path, file))
+            df['Date'] = dt
+          
+            cons_df = cons_df.append(df[cols])
+    
+    
+    return cons_df

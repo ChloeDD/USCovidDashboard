@@ -41,6 +41,8 @@ processData.check_download(
     'Case-Surveillance',
     'CaseSurveillanceData')
 
+case_surv = processData.consolidate_case_surv_data()
+
 usDataDf = processData.consolidate_state_data()
 usDataDf['Date'] = usDataDf['Date'].apply(pd.to_datetime)
 usDataDf['submission_date'] = usDataDf['submission_date'].apply(pd.to_datetime)
@@ -48,46 +50,48 @@ usDataDf['submission_date'] = usDataDf['submission_date'].apply(pd.to_datetime)
 external_scripts = ['/assets/style.css']
 
 usDataDf2 = usDataDf[~usDataDf.state.isin(['US'])]
-# usDataDf = pd.read_csv('./ProdData/USDatabyStates.csv')
-# currDate = datetime.dateime(2020,10,24)
 
+# DataFrame for top new covid cases
 topCases = usDataDf2[usDataDf2['Date'] == data_str][
     ['Date','state','tot_cases','tot_death']].sort_values('tot_cases', ascending=False)
+topCases['Date'] = topCases['Date'].apply(lambda x : x.date())
+for col in ['tot_cases','tot_death']:
+    topCases[col]=topCases[col].apply(lambda x: f'{x:,}')
+
 USTotalCases = usDataDf2[usDataDf2['submission_date']==data_str]['tot_cases'].astype(float).sum()
 statesNames = usDataDf.sort_values('state')['state'].unique().tolist()
 usDataDf['new_case'] = usDataDf['new_case'].astype(float)
-# pdb.set_trace()
-USTopNewCases = usDataDf2[usDataDf2['submission_date'] == data_str][['state', 'new_case']].sort_values(
-    'new_case', ascending=False)
-# pdb.set_trace()
-# tot_cases_growth = usDataDf.pivot_table(
-#     'tot_cases',
-#     ['Date'],
-#     'state').sort_values('Date').pct_change(
-#         fill_method='pad')
 
+USTopNewCases = usDataDf2[usDataDf2['submission_date'] == data_str][['state', 'new_case',
+'7 day average new cases','new_death']].sort_values(
+    by='new_case', ascending=False)
+
+us_bar = px.bar(USTopNewCases.sort_values(by='new_case',ascending=True), 
+    y = 'state', x = 'new_case', text='new_case', orientation='h', color='new_case',
+     color_continuous_scale=["orange", "red"], height=1000)
+us_bar.update_traces(texttemplate='%{text:.2s}', textposition='outside')
+us_bar.update_layout(uniformtext_minsize=6, uniformtext_mode='hide', 
+                     xaxis={'categoryorder':'total descending'})
+
+for col in ['new_case', '7 day average new cases']:
+    USTopNewCases[col]=USTopNewCases[col].apply(lambda x: f'{x:,}')
+
+# data for death rate 
 death_rate_rank = usDataDf[usDataDf['Date'] == data_str].sort_values(
     'death rate', ascending=False, na_position='last')[['state', 'death rate']]
+death_rate_rank['death rate'] = death_rate_rank['death rate'].apply(lambda x: '{:.2f}%'.format(x))
 
-usDataDf['submission_date'] = pd.to_datetime(
-    usDataDf['submission_date']).apply(lambda x: x.date())
-
-us_cases = usDataDf.copy()
+# data for total cases animation
+us_cases = usDataDf2.copy()
 for col in us_cases.columns:
     us_cases[col] = us_cases[col].astype(str)
 
-us_cases = us_cases[~us_cases.state.isin(['US'])][['Date', 'submission_date', 'state',
-                                                   'tot_cases', 'tot_death', 'new_case', 'new_death']]
-us_cases['Data'] = ("{state}<br>"
-                    "Total Cases {tot_cases}<br>"
-                    "Total Death {tot_death}<br>"
-                    "New Case {new_case}<br>"
-                    "New Death {new_death}".format(
-                        state = us_cases['state'], 
-                        tot_cases = us_cases['tot_cases'], 
-                        tot_death = us_cases['tot_death'],
-                        new_case = us_cases['new_case'],
-                        new_death = us_cases['new_death']))
+us_cases = us_cases[['Date', 'submission_date', 'state',
+                     'tot_cases', 'tot_death', 'new_case', 'new_death']]
+
+us_cases['Data'] =us_cases['state'] + '<br>' + \
+    'Total Cases ' + us_cases['tot_cases'] + '<br>' + 'Total Death ' + us_cases['tot_death'] + '<br>' + \
+    'New Case ' + us_cases['new_case'] +'<br>' + 'New Death ' + us_cases['new_death']
 
 glog.info('Plot animcation')
 
@@ -101,7 +105,7 @@ fig = px.choropleth(us_cases,
                     hover_name="state",
                     featureidkey='properties.state',
                     hover_data=['Data'],
-                    animation_frame="submission_date", animation_group="state",
+                    animation_frame="Date", animation_group="state",
                     color_continuous_scale='Reds',
                     labels={'tot_cases': 'Total Number of Cases'},
                     title='US Covid Cases'
@@ -116,32 +120,8 @@ fig.update_layout(
     geo=dict(bgcolor='rgba(0,0,0,0)', lakecolor='#e0fffe')
 )
 
+#Data for adjusted case rate
 data = usDataDf2[usDataDf2['Date'] == data_str]
-
-fig2 = px.choropleth(data,
-                     scope='usa',
-                     locations="state",
-                     locationmode='USA-states',
-                     color=data['Risk Level'],
-                     hover_name="state",
-                     featureidkey='properties.state',
-                     hover_data=['7 day average new cases with 7 day lag'],
-                     # animation_frame="submission_date", animation_group="state",
-                     color_continuous_scale='Reds',
-                     labels={
-                         'Risk Level': 'Risk level based on 7 day average new cases with 7 day lag'},
-                     title='State Risk Level'
-                     )
-
-fig2.update_layout(
-    showlegend=True,
-    legend_title_text='<b>Risk Level</b>',
-    font={"size": 16, "color": "#808080", "family": "calibri"},
-    margin={"r": 0, "t": 40, "l": 0, "b": 0},
-    legend=dict(orientation='v'),
-    geo=dict(bgcolor='rgba(0,0,0,0)', lakecolor='#e0fffe')
-)
-
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 # app = dash.Dash(__name__, external_stylesheets=external_scripts)
@@ -158,12 +138,14 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                    html.H2(
-                        "As of {} US Total Reported Cases: {}".format(data_str, USTotalCases),
-                        style={'textAlign': 'center', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                    dcc.Markdown('''### As of {} US Total Reported Cases: ***{}***'''.format(data_str, 
+                    f'{int(USTotalCases):,}'),
+                        style={'fontSize':'40','textAlign': 'left', 'fontColor':'black',
+                        'marginLeft': 50, 'marginBottom': 30, 
+                        'marginTop': 30}),
                         # todo: unify units here
                     html.H4(
-                        "Top 5 States with the Most New Cases Today",
+                        "Top 5 States with the Most New Cases",
                         style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                     dash_table.DataTable(
                         id='table2',
@@ -175,23 +157,63 @@ app.layout = html.Div([
                             'font-family' : 'var(--text_font_family)'
                         },
                         style_data={"margin-left": "auto","margin-right": "auto"}),
-                    html.H3(
-                        "Top 5 States with the Highest Death Rate",
-                        style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
-                    dash_table.DataTable(
-                        id='table3',
-                        columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
-                        data=death_rate_rank.iloc[0:5, :].to_dict('rows'),
-                        style_header={'backgroundColor': 'rgb(230, 230, 230)', 'fontWeight': 'bold'},
-                        style_cell={
-                            'textAlign': 'center',
-                            'font-family' : 'var(--text_font_family)'
-                        },
-                        style_data={"margin-left": "auto", "margin-right": "auto"}),
-                    html.H3(
-                        "Covid Risk Level",
+
+                    html.H4(
+                        "US New Cases",
                         style={"textAlign": "left", 'marginBottom': 30, 'marginTop': 30}),
-                    dcc.Graph(figure=fig2)])
+                    dcc.Graph(figure=us_bar),
+                    
+                    html.H4("US New Cases by States", style={"textAlign": "left", 
+                    'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                    html.Div([
+                        html.Div([
+                            dcc.Dropdown(
+                                id='state-selected2',
+                                value='US',
+                                options=[{'label': i, 'value': i} for i in statesNames]),
+                                dcc.RadioItems(
+                                id='selected-col',
+                                options=[{'label': i, 'value': i} for i in ['new_case', 
+                                '7 day average new cases',
+                                'New Cases per Population',
+                                'Adjusted Case Rate']],
+                                value='new_case',
+                                labelStyle={'display': 'inline-block'}
+            )],
+                                style={"display": "block",
+                                        "marginLeft": "auto",
+                                        "marginRight": "auto",
+                                        "width": "80%"}),
+                            ]),
+                        dcc.Graph(id='us_new_cases'),
+                    
+                    html.H3(
+                        "COVID Risk Level",
+                        style={"textAlign": "center", 'marginBottom': 30, 'marginTop': 30}),
+                         dcc.Markdown('''
+                         If we use CA risk level definition(using only Adjusted case rate definition), 
+                         we can see how widespread the COVID case growth has been at states level. 
+
+                        Adjusted Case Rate: Calculated as the average daily number of COVID-19+ cases) over 7 days 
+                        divided by the number of people living in the state then multiplied by 100,000.
+
+                        CA Blueprint for a Safer Economy [links]:(https://covid19.ca.gov/safer-economy/)
+                        ''', 
+                    style={"textAlign": "left", 'marginLeft': 50, 'marginRight': 50}),
+                    html.Div([
+                        html.Div([dcc.RadioItems(
+                                id='selected-risk-col',
+                                options=[{'label': i, 'value': i} for i in 
+                                ['Adjusted Case Rate','CA Risk Level Threshold']],
+                                value='Adjusted Case Rate',
+                                labelStyle={'display': 'inline-block'}
+            )],
+                                style={"display": "block",
+                                        "marginLeft": "auto",
+                                        "marginRight": "auto",
+                                        "width": "80%"}),
+                            ]),
+                    dcc.Graph(id='us_risk_level')])
                     ]
                 ),
         # First Tab
@@ -201,7 +223,7 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                    html.H3(
+                    html.H4(
                         "Top 5 States by Total Covid Cases", 
                         style={'textAlign': 'left','marginBottom': 100, 'marginTop': 100}),
                     dash_table.DataTable(
@@ -213,7 +235,7 @@ app.layout = html.Div([
                         style_data={"margin-left": "auto", "margin-right": "auto"}),
                     html.H3(
                         "Covid Cases by States Animation", 
-                        style={"textAlign": "left", 'marginBottom': 100, 'marginTop': 100}),
+                        style={"textAlign": "center", 'marginBottom': 100, 'marginTop': 100}),
                     dcc.Graph(figure=fig)
                     ])
             ]),
@@ -224,17 +246,32 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                    html.H1("US Death Rate by States", style={"textAlign": "center"}),
+                    html.H4(
+                        "Top 5 States with the Highest Death Rate",
+                        style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                    dash_table.DataTable(
+                        id='table4',
+                        columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
+                        data=death_rate_rank.iloc[0:5, :].to_dict('rows'),
+                        style_header={'backgroundColor': 'rgb(230, 230, 230)', 'fontWeight': 'bold'},
+                        style_cell={
+                            'textAlign': 'center',
+                            'font-family' : 'var(--text_font_family)'
+                        },
+                        style_data={"margin-left": "auto", "margin-right": "auto"}),
+
+                    html.H4("US Death Rate(%) by States", style={"textAlign": "left", 
+                    'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                     html.Div([
                         html.Div([
                             dcc.Dropdown(
                                 id='state-selected',
-                                value='state',
+                                value='US',
                                 options=[{'label': i, 'value': i} for i in statesNames])],
                                 style={"display": "block",
                                         "marginLeft": "auto",
                                         "marginRight": "auto",
-                                        "width": "60%"}),
+                                        "width": "80%"}),
                             ]),
                         dcc.Graph(id='us_death_rate')])
                     ]),
@@ -249,16 +286,65 @@ app.layout = html.Div([
 
 @ app.callback(Output('us_death_rate', 'figure'),
                [Input('state-selected', 'value')])
+
 def update_graph(selected_dropdown):
 
     chart_title = 'State Death Rate Time Series: {}'.format(selected_dropdown)
     figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown],
-                     x="submission_date",
+                     x="Date",
                      y="death rate",
                      title=chart_title)
 
     return figure
 
+@ app.callback(Output('us_new_cases', 'figure'),
+               [Input('state-selected2', 'value'),
+                Input('selected-col', 'value')])
+
+def update_newcases_graph(selected_dropdown, selected_col):
+
+    chart_title = 'State New Cases Time Series: {}'.format(selected_dropdown)
+    figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown],
+                     x="Date",
+                     y=selected_col,
+                     title=chart_title)
+
+    return figure
+
+@ app.callback(Output('us_risk_level', 'figure'),
+               [Input('selected-risk-col', 'value')])
+
+def update_usrisk_chart(selected_risk_col):
+
+    if selected_risk_col =='CA Risk Level Threshold':
+        col = 'Risk Level'
+    else:
+        col = 'Adjusted Case Rate'
+
+    figure = px.choropleth(data,
+                        scope='usa',
+                        locations="state",
+                        locationmode='USA-states',
+                        color=data[col],
+                        hover_name="state",
+                        featureidkey='properties.state',
+                        hover_data=['Adjusted Case Rate'],
+                        color_continuous_scale='Reds',
+                        labels={
+                            'Risk Level': 'Risk level based on Adjusted Case Rate'},
+                        title='State Risk Level'
+                        )
+
+    figure.update_layout(
+        showlegend=True,
+        legend_title_text='<b>Risk Level</b>',
+        font={"size": 16, "color": "#808080", "family": "calibri"},
+        margin={"r": 0, "t": 40, "l": 0, "b": 0},
+        legend=dict(orientation='v'),
+        geo=dict(bgcolor='rgba(0,0,0,0)', lakecolor='#e0fffe')
+    )
+
+    return figure
 
 if __name__ == '__main__':
     app.run_server(debug=True)
