@@ -295,7 +295,7 @@ def update_graph(selected_dropdown, death_col):
 
 
     chart_title = 'State Death Rate Time Series: {}'.format(selected_dropdown)
-    figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown],
+    figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown].sort_values(by='Date'),
                      x="Date",
                      y=death_col,
                      title=chart_title)
@@ -309,7 +309,7 @@ def update_graph(selected_dropdown, death_col):
 def update_newcases_graph(selected_dropdown, selected_col):
 
     chart_title = 'State New Cases Time Series: {}'.format(selected_dropdown)
-    figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown],
+    figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown].sort_values(by='Date'),
                      x="Date",
                      y=selected_col,
                      title=chart_title)
