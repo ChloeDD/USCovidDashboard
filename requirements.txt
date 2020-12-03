@@ -6,4 +6,4 @@ pandas
 dash
 dash-bootstrap-components
 plotly
-ipywidgets
+gunicorn

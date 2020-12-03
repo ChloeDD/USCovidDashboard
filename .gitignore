@@ -6,3 +6,7 @@ __pycache__/*
 # Ignore data fils 
 *.csv
 
+# Ignore venv
+venv
+*.pyc
+.env
