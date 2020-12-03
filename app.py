@@ -20,32 +20,29 @@ import plotly.graph_objs as go
 from ipywidgets import widgets
 
 prev_day = datetime.datetime.today() - datetime.timedelta(1)
-data_str = '{}-{}-{:02d}'.format(prev_day.year, prev_day.month, prev_day.day)
-usStateDataLink = "9mfq-cb36"
-usDeathDataLink = '9bhg-hcku'
-caseSurveillanceData = 'vbim-akqf'
-
-us_state_data_query = "SELECT * WHERE submission_date="
-case_surveillance_query = "SELECT * WHERE cdc_report_dt="
 
 processData.check_download(
     prev_day,
-    usStateDataLink,
-    us_state_data_query,
+    processData.usStateDataLink,
+    processData.us_state_data_query,
     'US-State-Data',
     'StateData')
 processData.check_download(
     prev_day,
-    caseSurveillanceData,
-    case_surveillance_query,
+    processData.caseSurveillanceData,
+    processData.case_surveillance_query,
     'Case-Surveillance',
     'CaseSurveillanceData')
 
 case_surv = processData.consolidate_case_surv_data()
+maxdt = case_surv['cdc_report_dt'].max()
 
 usDataDf = processData.consolidate_state_data()
 usDataDf['Date'] = usDataDf['Date'].apply(pd.to_datetime)
 usDataDf['submission_date'] = usDataDf['submission_date'].apply(pd.to_datetime)
+
+max_state_dt = usDataDf['Date'].max()
+data_str = '{}-{}-{:02d}'.format(max_state_dt.year, max_state_dt.month, max_state_dt.day)
 
 external_scripts = ['/assets/style.css']
 
@@ -138,7 +135,7 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                    dcc.Markdown('''### As of {} US Total Reported Cases: ***{}***'''.format(data_str, 
+                    dcc.Markdown('''### As of ***{}*** US Total Reported Cases: ***{}***'''.format(data_str, 
                     f'{int(USTotalCases):,}'),
                         style={'fontSize':'40','textAlign': 'left', 'fontColor':'black',
                         'marginLeft': 50, 'marginBottom': 30, 
@@ -264,10 +261,21 @@ app.layout = html.Div([
                     'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                     html.Div([
                         html.Div([
+                            dcc.Markdown('''
+                            Death Rate(%) is number of death divided by the population.
+                            Case Fatality Rate is the number of death divided by the number of confirmed cases.
+                            '''),
                             dcc.Dropdown(
                                 id='state-selected',
                                 value='US',
-                                options=[{'label': i, 'value': i} for i in statesNames])],
+                                options=[{'label': i, 'value': i} for i in statesNames]),
+                                dcc.RadioItems(
+                                id='death-col',
+                                value='death rate',
+                                options=[{'label': i, 'value': i} for i in ['death rate', 'case fatality rate']],
+                                labelStyle={'display': 'inline-block'}
+                                )
+                                ],
                                 style={"display": "block",
                                         "marginLeft": "auto",
                                         "marginRight": "auto",
@@ -279,20 +287,43 @@ app.layout = html.Div([
         dcc.Tab(
             label='US Case Surveillance',
             className ='custom-tab',
-            selected_className ='custom-tab--selected')
+            selected_className ='custom-tab--selected',
+            children=[html.Div([
+                html.H4('US Covid Case Surveillance Data',style={'textAlign': 'center',
+                'marginBottom': 100, 'marginTop': 100}),
+                dcc.Markdown('''##### CDC updates this data on montly basis, latest update: {}'''.format(maxdt[:10]),
+                        style={'textAlign': 'center', "margin-left": "auto", "margin-right": "auto"}),
+                
+                            dcc.RadioItems(
+                                id='case-selected',
+                                value='sex',
+                                options=[{'label': i, 'value': i} for i in ['hosp_yn', 'current_status', 'sex',
+                                                                            'age_group', 'race_ethnicity_combined', 
+                                                                            'icu_yn', 'death_yn','medcond_yn']],
+                                style={"display": "block",
+                                        "marginLeft": "auto",
+                                        "marginRight": "auto"}),
+                        dcc.Graph(id='us_case_surv')
+                
+
+            ])]
+            )
     ])
 ])
 
 
 @ app.callback(Output('us_death_rate', 'figure'),
-               [Input('state-selected', 'value')])
+               [Input('state-selected', 'value'),
+                Input('death-col', 'value')
+               ])
 
-def update_graph(selected_dropdown):
+def update_graph(selected_dropdown, death_col):
+
 
     chart_title = 'State Death Rate Time Series: {}'.format(selected_dropdown)
     figure = px.line(usDataDf[usDataDf['state'] == selected_dropdown],
                      x="Date",
-                     y="death rate",
+                     y=death_col,
                      title=chart_title)
 
     return figure
@@ -343,6 +374,19 @@ def update_usrisk_chart(selected_risk_col):
         legend=dict(orientation='v'),
         geo=dict(bgcolor='rgba(0,0,0,0)', lakecolor='#e0fffe')
     )
+
+    return figure
+
+@ app.callback(Output('us_case_surv', 'figure'),
+               [Input('case-selected', 'value')])
+
+def update_casesurv_chart(case_selected):
+
+    
+    datadf=case_surv.groupby(case_selected).count()/case_surv.shape[0]
+    datadf=datadf.reset_index()
+    datadf['% Count'] = datadf['cdc_report_dt'].apply(lambda x: '{}%'.format(round(100.0*x,2)))
+    figure = px.bar(datadf, x=case_selected, y='% Count', color=case_selected)
 
     return figure
 

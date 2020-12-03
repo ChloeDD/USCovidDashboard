@@ -73,18 +73,21 @@ def consolidate_state_data():
             'tot_death',
             'new_death'])
     for file in os.listdir('./StateData'):
-        dt = os.path.basename(file).split('.')[0][-10:]
-        df = pd.read_csv(os.path.join(path, file))
-        df['Date'] = dt
-        df[['Date', 'submission_date']] = df[['Date', 'submission_date']].apply(pd.to_datetime)
-        df[['tot_cases', 'new_case', 'tot_death', 'new_death']] = df[[
-            'tot_cases', 'new_case', 'tot_death', 'new_death']].apply(pd.to_numeric)
-        df.loc['US'] = df.sum(numeric_only=True)
-        df.loc['US', 'state'] = 'US'
-        df.loc['US', 'Date'] = dt
-        df.loc['US', 'submission_date'] = dt
-        usDataDf = usDataDf.append(
-            df[['Date', 'submission_date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death']])
+        if os.stat(os.path.join(path,file)).st_size <= 4:
+            glog.info('File {} is empty'.format(file))
+        else:
+            dt = os.path.basename(file).split('.')[0][-10:]
+            df = pd.read_csv(os.path.join(path, file))
+            df['Date'] = dt
+            
+            df[['tot_cases', 'new_case', 'tot_death', 'new_death']] = df[[
+                'tot_cases', 'new_case', 'tot_death', 'new_death']].apply(pd.to_numeric)
+            df.loc['US'] = df.sum(numeric_only=True)
+            df.loc['US', 'state'] = 'US'
+            df.loc['US', 'Date'] = dt
+            df.loc['US', 'submission_date'] = dt
+            usDataDf = usDataDf.append(
+                df[['Date', 'submission_date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death']])
 
     usDataDf['case fatality rate'] = usDataDf['tot_death'].astype(float) / usDataDf['tot_cases'].astype(float)
     usDataDf['case fatality rate'] = usDataDf['case fatality rate'].fillna(0)
