@@ -90,7 +90,7 @@ us_cases['Data'] =us_cases['state'] + '<br>' + \
     'Total Cases ' + us_cases['tot_cases'] + '<br>' + 'Total Death ' + us_cases['tot_death'] + '<br>' + \
     'New Case ' + us_cases['new_case'] +'<br>' + 'New Death ' + us_cases['new_death']
 
-glog.info('Plot animcation')
+glog.info('Plot animation')
 
 us_cases['tot_cases'] = us_cases['tot_cases'].astype(float).astype(int)
 
@@ -158,7 +158,7 @@ app.layout = html.Div([
                         data=death_rate_rank.iloc[0:5, :].to_dict('rows')),
                     html.H3(
                         "Covid Risk Level",
-                        style={"textAlign": "left", 'marginBottom': 30, 'marginTop': 30}),
+                        style=title_shared_style),
                     dcc.Graph(figure=us_bar),
                     html.H3("US New Cases by States", style={"textAlign": "left", 
                     'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
@@ -218,7 +218,7 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                    html.H4(
+                    html.H3(
                         "Top 5 States by Total Covid Cases", 
                         style=title_shared_style),
                     dash_table.DataTable(
@@ -238,9 +238,9 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                    html.H4(
+                    html.H3(
                         "Top 5 States with the Highest Death Rate",
-                        style={'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                        style=title_shared_style),
                     dash_table.DataTable(
                         id='table4',
                         columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
@@ -252,8 +252,7 @@ app.layout = html.Div([
                         },
                         style_data={"margin-left": "auto", "margin-right": "auto"}),
 
-                    html.H4("US Death Rate(%) by States", style={"textAlign": "left", 
-                    'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                    html.H3("US Death Rate(%) by States", style=title_shared_style),
                     html.Div([
                         html.Div([
                             dcc.Markdown('''
