@@ -118,6 +118,7 @@ data = usDataDf2[usDataDf2['Date'] == data_str]
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUMEN])
 # app = dash.Dash(__name__, external_stylesheets=external_scripts)
+server = app.server
 
 title_shared_style = {'textAlign': 'left', 'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}
 
