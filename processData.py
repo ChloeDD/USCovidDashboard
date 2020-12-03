@@ -47,7 +47,7 @@ def process_population_data(input_file):
 def check_download(date, filesource, dataquery, filenamePrefix, folder):
     """Daily checker to see how if files have been updated on CDC website"""
 
-    # Crate folder if not exist
+    # Create folder if not exist
     if not os.path.exists(folder):
         os.makedirs(folder)
     # Download State Data

@@ -149,19 +149,10 @@ app.layout = html.Div([
                         id='table2',
                         columns=[ {'name': i, 'id': i} for i in USTopNewCases.columns],
                         data=USTopNewCases.iloc[0:5, :].to_dict('rows')),
-                    html.H3(
-                        "Top 5 States with the Highest Death Rate",
-                        style=title_shared_style),
-                    dash_table.DataTable(
-                        id='table3',
-                        columns=[ {"name": i, "id": i} for i in death_rate_rank.columns],
-                        data=death_rate_rank.iloc[0:5, :].to_dict('rows')),
-                    html.H3(
-                        "Covid Risk Level",
-                        style=title_shared_style),
-                    dcc.Graph(figure=us_bar),
                     html.H3("US New Cases by States", style={"textAlign": "left", 
                     'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
+                    dcc.Graph(figure=us_bar),
+                    html.H3("US New Cases by States Time Series", style=title_shared_style),
                     html.Div([
                         html.Div([
                             dcc.Dropdown(
@@ -195,7 +186,7 @@ app.layout = html.Div([
                         divided by the number of people living in the state then multiplied by 100,000.
 
                         CA Blueprint for a Safer Economy [links]:(https://covid19.ca.gov/safer-economy/)
-                        '''), 
+                        ''',style=title_shared_style), 
                     html.Div([
                         html.Div([dcc.RadioItems(
                                 id='selected-risk-col',
@@ -254,26 +245,22 @@ app.layout = html.Div([
 
                     html.H3("US Death Rate(%) by States", style=title_shared_style),
                     html.Div([
-                        html.Div([
+                        
                             dcc.Markdown('''
                             Death Rate(%) is number of death divided by the population.
                             Case Fatality Rate is the number of death divided by the number of confirmed cases.
-                            '''),
+                            ''',style=title_shared_style),
                             dcc.Dropdown(
                                 id='state-selected',
                                 value='US',
-                                options=[{'label': i, 'value': i} for i in statesNames]),
-                                dcc.RadioItems(
+                                options=[{'label': i, 'value': i} for i in statesNames],
+                                style=title_shared_style),
+                            dcc.RadioItems(
                                 id='death-col',
                                 value='death rate',
                                 options=[{'label': i, 'value': i} for i in ['death rate', 'case fatality rate']],
-                                labelStyle={'display': 'inline-block'}
-                                )
-                                ],
-                                style={"display": "block",
-                                        "marginLeft": "auto",
-                                        "marginRight": "auto",
-                                        "width": "80%"}),
+                                labelStyle={'display': 'inline-block'},
+                                style=title_shared_style),
                             ]),
                         dcc.Graph(id='us_death_rate')])
                     ]),
@@ -284,20 +271,18 @@ app.layout = html.Div([
             selected_className ='custom-tab--selected',
             children=[
                 html.Div([
-                        html.H4('US Covid Case Surveillance Data',
-                                style={'textAlign': 'center', 'marginBottom': 100, 'marginTop': 100}),
+                        html.H3('US Covid Case Surveillance Data',
+                                style=title_shared_style),
                         dcc.Markdown(
-                            '''##### CDC updates this data on montly basis, latest update: {}'''.format(maxdt[:10]),
-                            style={'textAlign': 'center', "margin-left": "auto", "margin-right": "auto"}),
+                            ''' CDC updates this data on montly basis, latest update: {}'''.format(maxdt[:10]),
+                            style=title_shared_style),
                         dcc.RadioItems(
                             id='case-selected',
                             value='sex',
                             options=[{'label': i, 'value': i} for i in ['hosp_yn', 'current_status', 'sex',
                                                                         'age_group', 'race_ethnicity_combined', 
                                                                         'icu_yn', 'death_yn','medcond_yn']],
-                            style={"display": "block",
-                                    "marginLeft": "auto",
-                                    "marginRight": "auto"}),
+                            style=title_shared_style),
                         dcc.Graph(id='us_case_surv')])
                     ]
             )

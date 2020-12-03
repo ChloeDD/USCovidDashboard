@@ -86,8 +86,9 @@ td{
 }
 .dash-table-container{
   background-color: var(--text_line_bg_color_6) !important;
-  max-width: 60%;
   min-width: 200px;
   margin: auto;
-  margin-left: 50pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-self: center;
 }
