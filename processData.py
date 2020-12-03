@@ -111,10 +111,14 @@ def consolidate_state_data():
     test['Total Cases per Population'] = test['tot_cases'] / test['Population']
     test['New Cases per Population'] = test['new_case'] / test['Population']
     
+    test['Date'] = test['Date'].apply(pd.to_datetime)
+    test = test.set_index('Date')
+    
     test['7 day average new cases'] = test.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
     test['7 day average new cases'] = round(test['7 day average new cases'],0)
     test['Adjusted Case Rate'] = round(100000 * test['7 day average new cases'] / test['Population'],0)
-    
+    test = test.reset_index()
+
     col = 'Adjusted Case Rate'
     conditions = [(test[col] < 1.0),
                   (test[col] >= 1.0) & (test[col] < 4.0),
@@ -143,7 +147,6 @@ def consolidate_case_surv_data():
     cons_df = pd.DataFrame(columns=cols)
     for file in os.listdir(path):
         if os.stat(os.path.join(path,file)).st_size <= 4:
-            
             glog.info('File {} is empty'.format(file))
             
         else:
