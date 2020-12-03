@@ -160,7 +160,6 @@ app.layout = html.Div([
                         "Covid Risk Level",
                         style={"textAlign": "left", 'marginBottom': 30, 'marginTop': 30}),
                     dcc.Graph(figure=us_bar),
-                    
                     html.H3("US New Cases by States", style={"textAlign": "left", 
                     'marginLeft': 50, 'marginBottom': 30, 'marginTop': 30}),
                     html.Div([
@@ -192,11 +191,11 @@ app.layout = html.Div([
                          If we use CA risk level definition(using only Adjusted case rate definition), 
                          we can see how widespread the COVID case growth has been at states level. 
 
-                        Adjusted Case Rate: Calculated as the average daily number of COVID-19+ cases) over 7 days 
+                        Adjusted Case Rate: Calculated as the average daily number of COVID-19+ cases over 7 days 
                         divided by the number of people living in the state then multiplied by 100,000.
 
                         CA Blueprint for a Safer Economy [links]:(https://covid19.ca.gov/safer-economy/)
-                        ''', 
+                        '''), 
                     html.Div([
                         html.Div([dcc.RadioItems(
                                 id='selected-risk-col',
@@ -204,15 +203,14 @@ app.layout = html.Div([
                                 ['Adjusted Case Rate','CA Risk Level Threshold']],
                                 value='Adjusted Case Rate',
                                 labelStyle={'display': 'inline-block'}
-            )],
+                                )],
                                 style={"display": "block",
                                         "marginLeft": "auto",
                                         "marginRight": "auto",
                                         "width": "80%"}),
                             ]),
-                    dcc.Graph(id='us_risk_level')])
-                    ]
-                ),
+                    dcc.Graph(id='us_risk_level')
+                ])]),
         # First Tab
         dcc.Tab(
             label='US Total Cases',
@@ -231,8 +229,8 @@ app.layout = html.Div([
                         "Covid Cases by States Animation", 
                         style=title_shared_style),
                     dcc.Graph(figure=fig)
-                    ])
-            ]),
+                    ])]
+        ),
         # Second Tab
         dcc.Tab(
             label='US Death Rate',
@@ -285,27 +283,26 @@ app.layout = html.Div([
             label='US Case Surveillance',
             className ='custom-tab',
             selected_className ='custom-tab--selected',
-            children=[html.Div([
-                html.H4('US Covid Case Surveillance Data',style={'textAlign': 'center',
-                'marginBottom': 100, 'marginTop': 100}),
-                dcc.Markdown('''##### CDC updates this data on montly basis, latest update: {}'''.format(maxdt[:10]),
-                        style={'textAlign': 'center', "margin-left": "auto", "margin-right": "auto"}),
-                
-                            dcc.RadioItems(
-                                id='case-selected',
-                                value='sex',
-                                options=[{'label': i, 'value': i} for i in ['hosp_yn', 'current_status', 'sex',
-                                                                            'age_group', 'race_ethnicity_combined', 
-                                                                            'icu_yn', 'death_yn','medcond_yn']],
-                                style={"display": "block",
-                                        "marginLeft": "auto",
-                                        "marginRight": "auto"}),
-                        dcc.Graph(id='us_case_surv')
-                
-
-            ])]
+            children=[
+                html.Div([
+                        html.H4('US Covid Case Surveillance Data',
+                                style={'textAlign': 'center', 'marginBottom': 100, 'marginTop': 100}),
+                        dcc.Markdown(
+                            '''##### CDC updates this data on montly basis, latest update: {}'''.format(maxdt[:10]),
+                            style={'textAlign': 'center', "margin-left": "auto", "margin-right": "auto"}),
+                        dcc.RadioItems(
+                            id='case-selected',
+                            value='sex',
+                            options=[{'label': i, 'value': i} for i in ['hosp_yn', 'current_status', 'sex',
+                                                                        'age_group', 'race_ethnicity_combined', 
+                                                                        'icu_yn', 'death_yn','medcond_yn']],
+                            style={"display": "block",
+                                    "marginLeft": "auto",
+                                    "marginRight": "auto"}),
+                        dcc.Graph(id='us_case_surv')])
+                    ]
             )
-    ])
+        ])
 ])
 
 
@@ -313,7 +310,6 @@ app.layout = html.Div([
                [Input('state-selected', 'value'),
                 Input('death-col', 'value')
                ])
-
 def update_graph(selected_dropdown, death_col):
 
 
