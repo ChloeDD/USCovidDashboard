@@ -112,6 +112,7 @@ def consolidate_state_data():
     test['New Cases per Population'] = test['new_case'] / test['Population']
     
     test['Date'] = test['Date'].apply(pd.to_datetime)
+    test = test.sort_values(by='Date')
     test = test.set_index('Date')
     
     test['7 day average new cases'] = test.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
