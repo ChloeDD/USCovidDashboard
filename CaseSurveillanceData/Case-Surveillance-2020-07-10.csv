@@ -1,0 +1,1001 @@
+,cdc_report_dt,pos_spec_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn
+0,2020-07-10T00:00:00.000,2020-07-29T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,Hispanic/Latino,No,No,No,Missing
+1,2020-07-10T00:00:00.000,2020-07-31T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,No,No,Missing,Missing
+2,2020-07-10T00:00:00.000,2020-07-31T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,30 - 39 Years,Hispanic/Latino,No,No,No,Missing
+3,2020-07-10T00:00:00.000,2020-08-01T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,Missing,No,Missing,Missing
+4,2020-07-10T00:00:00.000,2020-08-05T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,No,No,No,Yes
+5,2020-07-10T00:00:00.000,2020-08-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,"Black, Non-Hispanic",No,Missing,Missing,Missing
+6,2020-07-10T00:00:00.000,2020-03-20T00:00:00.000,2020-03-18T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,Missing,Yes
+7,2020-07-10T00:00:00.000,2020-03-20T00:00:00.000,2020-03-20T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,No,No,Yes
+8,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",No,Missing,Missing,Yes
+9,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+10,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,Unknown,No,No
+11,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+12,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,No,No,Yes
+13,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+14,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,Unknown,No,Unknown
+15,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+16,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",Unknown,Unknown,No,Unknown
+17,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+18,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+19,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"American Indian/Alaska Native, Non-Hispanic",No,Unknown,No,No
+20,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+21,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+22,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+23,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+24,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+25,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,No,Yes
+26,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+27,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Yes
+28,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+29,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Yes
+30,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+31,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Yes
+32,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+33,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+34,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Unknown
+35,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+36,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+37,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Unknown
+38,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+39,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Yes
+40,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,Missing,Yes
+41,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Unknown,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+42,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Unknown,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+43,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Unknown,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+44,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+45,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+46,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,No,Missing,Missing
+47,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Unknown,Missing,Missing
+48,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+49,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+50,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+51,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+52,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+53,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+54,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+55,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+56,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+57,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+58,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+59,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+60,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+61,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+62,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+63,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+64,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+65,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+66,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+67,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+68,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+69,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+70,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+71,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+72,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Yes,Missing,Missing,No
+73,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Yes
+74,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+75,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+76,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+77,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+78,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Missing
+79,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+80,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+81,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+82,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+83,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+84,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,Missing,Yes
+85,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+86,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+87,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+88,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+89,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,No,Yes
+90,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+91,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+92,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+93,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Unknown
+94,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Missing
+95,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+96,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+97,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+98,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+99,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+100,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+101,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+102,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+103,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+104,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+105,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+106,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+107,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+108,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+109,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,Missing,No
+110,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+111,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+112,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+113,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+114,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+115,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,No,Missing
+116,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Missing
+117,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+118,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+119,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+120,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+121,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+122,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+123,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Missing,Missing,Missing
+124,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+125,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+126,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+127,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+128,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+129,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Yes
+130,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-07T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,No
+131,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Missing
+132,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+133,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,No,Missing,Missing
+134,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+135,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+136,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+137,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+138,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+139,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+140,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+141,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+142,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+143,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+144,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Missing,Missing
+145,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+146,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Missing
+147,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+148,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+149,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Yes
+150,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,Missing,Missing
+151,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+152,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+153,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+154,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+155,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,Missing,No
+156,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Missing
+157,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+158,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,No,Missing
+159,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+160,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+161,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,Missing,Missing
+162,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+163,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+164,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+165,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+166,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+167,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+168,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+169,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Missing
+170,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Yes,Missing,Missing,Missing
+171,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+172,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+173,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+174,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+175,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+176,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+177,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+178,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+179,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+180,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Yes,Missing,Missing,No
+181,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+182,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+183,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+184,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+185,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Unknown,Missing,Unknown,Missing
+186,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+187,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Missing
+188,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+189,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,Unknown,Missing
+190,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+191,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+192,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Unknown,No,Yes
+193,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Yes
+194,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+195,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,No,No
+196,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+197,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+198,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+199,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+200,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+201,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Unknown
+202,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+203,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+204,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+205,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,No,Unknown
+206,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Unknown
+207,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Missing,Missing,Missing
+208,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+209,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,Missing
+210,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Unknown,No,Yes
+211,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Unknown
+212,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+213,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Missing,Missing,Missing,No
+214,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Unknown
+215,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+216,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Missing,No,Missing
+217,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+218,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,No
+219,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+220,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+221,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Missing,No,Missing
+222,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Yes,Yes,Yes
+223,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+224,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,No,Missing,Missing
+225,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+226,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,Unknown,Missing
+227,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Yes,Yes,Missing
+228,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Unknown
+229,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+230,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Yes,Yes,Missing
+231,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,Missing,Missing
+232,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+233,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Unknown
+234,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+235,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+236,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Unknown
+237,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Yes
+238,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+239,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+240,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-31T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+241,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Missing,Missing,No
+242,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+243,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Unknown,Missing,Unknown,Missing
+244,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+245,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Missing,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+246,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Missing,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+247,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Missing,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+248,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",Yes,Yes,Yes,Yes
+249,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",No,No,No,Yes
+250,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",Missing,Missing,Missing,Missing
+251,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",No,Unknown,No,No
+252,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",No,Missing,No,Yes
+253,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+254,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+255,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,Missing,Missing
+256,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,Missing,Missing
+257,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,Unknown,Missing
+258,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+259,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,Missing,Yes
+260,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+261,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,Missing,Missing
+262,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+263,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,Unknown,No,Yes
+264,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+265,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+266,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,No,Missing
+267,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,Missing,Missing
+268,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,Missing,Yes
+269,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Missing,Unknown,Missing,Missing
+270,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Unknown
+271,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+272,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,No,Missing
+273,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,Unknown,Missing
+274,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+275,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,No,No,Yes
+276,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+277,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Unknown
+278,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,Missing,Yes
+279,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+280,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Unknown
+281,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+282,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+283,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+284,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,Unknown,No,Yes
+285,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+286,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+287,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+288,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+289,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+290,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+291,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+292,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+293,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+294,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+295,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+296,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+297,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,No
+298,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+299,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+300,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+301,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+302,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+303,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+304,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+305,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+306,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+307,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+308,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+309,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+310,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+311,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+312,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+313,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+314,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+315,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+316,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+317,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Unknown
+318,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+319,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+320,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+321,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+322,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Missing
+323,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+324,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+325,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,No
+326,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+327,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,No
+328,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+329,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+330,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+331,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+332,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+333,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+334,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Unknown,No,Missing
+335,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+336,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+337,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+338,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+339,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+340,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-04T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Yes
+341,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+342,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+343,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+344,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Missing
+345,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Unknown,Unknown,Missing
+346,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+347,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+348,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,No
+349,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+350,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+351,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+352,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+353,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+354,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+355,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+356,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Yes
+357,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+358,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Yes
+359,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+360,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,Unknown,Missing
+361,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+362,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,No
+363,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+364,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+365,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+366,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+367,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+368,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Unknown,No,Yes
+369,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Yes
+370,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+371,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+372,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+373,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+374,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+375,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+376,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"American Indian/Alaska Native, Non-Hispanic",No,Unknown,No,Yes
+377,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+378,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,No,No,No
+379,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Unknown
+380,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+381,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+382,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+383,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+384,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Multiple/Other, Non-Hispanic",Missing,No,Missing,Missing
+385,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+386,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+387,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Unknown,Missing,Missing
+388,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+389,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Unknown
+390,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+391,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+392,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+393,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+394,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+395,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+396,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+397,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+398,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+399,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+400,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+401,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+402,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+403,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+404,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Unknown
+405,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Missing
+406,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+407,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+408,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+409,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+410,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+411,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+412,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+413,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+414,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+415,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+416,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+417,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+418,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+419,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+420,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+421,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+422,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+423,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+424,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+425,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+426,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+427,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+428,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+429,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+430,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+431,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+432,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+433,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+434,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+435,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,No
+436,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+437,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+438,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Missing,No,Missing
+439,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+440,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+441,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+442,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+443,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+444,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+445,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+446,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+447,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,No
+448,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+449,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+450,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+451,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+452,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+453,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+454,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+455,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+456,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+457,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Missing,Missing
+458,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Missing,Missing,Missing
+459,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+460,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+461,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+462,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Missing,No,Yes
+463,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+464,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Missing
+465,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+466,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+467,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+468,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+469,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+470,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+471,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+472,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Yes
+473,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,No
+474,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+475,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+476,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+477,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+478,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+479,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+480,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+481,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,Missing,Yes
+482,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+483,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,No
+484,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+485,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+486,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+487,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+488,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Missing
+489,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+490,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+491,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Missing,Missing,No
+492,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+493,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+494,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+495,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+496,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+497,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+498,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+499,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+500,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+501,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+502,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Missing,No,Yes
+503,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+504,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+505,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,No
+506,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+507,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+508,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+509,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+510,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+511,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+512,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+513,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+514,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Probable Case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+515,2020-07-10T00:00:00.000,2020-07-10T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+516,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Native Hawaiian/Other Pacific Islander, Non-Hispanic",No,Unknown,No,Unknown
+517,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+518,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Missing,No,Missing,Missing
+519,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,No,No,Yes
+520,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+521,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+522,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Yes,Yes,Yes,No
+523,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+524,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Missing,Missing,Missing
+525,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+526,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+527,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,Missing,Missing,Missing
+528,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+529,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+530,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+531,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+532,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+533,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+534,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,Yes
+535,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+536,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+537,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,No,Yes
+538,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Missing,Missing,Missing,Missing
+539,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+540,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+541,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+542,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+543,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+544,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+545,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+546,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+547,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,Unknown,Unknown
+548,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,Missing,Missing
+549,2020-07-10T00:00:00.000,2020-07-11T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+550,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+551,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,Missing,Yes
+552,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+553,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,No,No,Yes
+554,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+555,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Yes
+556,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Unknown,No,Unknown
+557,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+558,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,No,No,Yes
+559,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+560,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+561,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+562,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+563,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+564,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+565,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,No
+566,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+567,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+568,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+569,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+570,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+571,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Yes
+572,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Missing,No,Missing
+573,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+574,2020-07-10T00:00:00.000,2020-07-12T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,Unknown,Missing
+575,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Asian, Non-Hispanic",No,No,Missing,Missing
+576,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+577,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,No,No,Yes
+578,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+579,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Yes
+580,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,No,No,Yes
+581,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Missing
+582,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,No,Yes
+583,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Yes
+584,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+585,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+586,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+587,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Unknown,Unknown,No,Unknown
+588,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+589,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+590,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,No,Missing,Missing
+591,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+592,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Missing,No,No
+593,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+594,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+595,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,No,Yes,Yes
+596,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+597,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,No,Yes
+598,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,No
+599,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,No
+600,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,No
+601,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,No,Yes
+602,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,Missing,Yes
+603,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+604,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,No,Missing,Missing
+605,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+606,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+607,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+608,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+609,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+610,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+611,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+612,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Unknown,No,Missing
+613,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,Yes,Yes
+614,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+615,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+616,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Yes
+617,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+618,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,Missing,Missing
+619,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Yes
+620,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+621,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+622,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+623,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,No
+624,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Missing
+625,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Yes
+626,2020-07-10T00:00:00.000,2020-07-13T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Unknown,Unknown,No,Unknown
+627,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,Missing,Yes
+628,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,No,Yes
+629,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Missing
+630,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+631,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+632,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+633,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Yes
+634,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Missing
+635,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,No
+636,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,No,No,Yes
+637,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Yes,No,No,Missing
+638,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+639,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Missing,No,No,Missing
+640,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,No,No,Yes
+641,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+642,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+643,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,Missing,Missing
+644,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",No,No,No,Yes
+645,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Asian, Non-Hispanic",Missing,No,Missing,Missing
+646,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+647,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+648,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+649,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+650,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,No
+651,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,Yes,Yes
+652,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+653,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+654,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+655,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,Missing,Yes
+656,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Missing,Missing,Yes
+657,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+658,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+659,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+660,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+661,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Missing
+662,2020-07-10T00:00:00.000,2020-07-14T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Missing
+663,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+664,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+665,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+666,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+667,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+668,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,No
+669,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Missing,Missing,Yes
+670,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Unknown,No,Unknown
+671,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+672,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Unknown,No,No,Missing
+673,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+674,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,No,No,Unknown
+675,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+676,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,No,No,Yes
+677,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+678,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Unknown
+679,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+680,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+681,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+682,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+683,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+684,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+685,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,Yes,Missing
+686,2020-07-10T00:00:00.000,2020-07-15T00:00:00.000,2020-07-10T00:00:00.000,Probable Case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+687,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+688,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,No
+689,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Unknown,Unknown,No,No
+690,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Missing,No,Yes
+691,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+692,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+693,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Missing
+694,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+695,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Missing
+696,2020-07-10T00:00:00.000,2020-07-16T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Yes
+697,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Multiple/Other, Non-Hispanic",No,No,No,Missing
+698,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,No,Yes
+699,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Missing,Missing,Yes
+700,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+701,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,No,Missing
+702,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,No
+703,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+704,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+705,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+706,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Missing,No,Missing
+707,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+708,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+709,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+710,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+711,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+712,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+713,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,No,Yes
+714,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+715,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,No
+716,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,No,Missing,Missing
+717,2020-07-10T00:00:00.000,2020-07-17T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+718,2020-07-10T00:00:00.000,2020-07-18T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+719,2020-07-10T00:00:00.000,2020-07-18T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+720,2020-07-10T00:00:00.000,2020-07-18T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+721,2020-07-10T00:00:00.000,2020-07-18T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,Unknown,No,No
+722,2020-07-10T00:00:00.000,2020-07-19T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Missing
+723,2020-07-10T00:00:00.000,2020-07-19T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+724,2020-07-10T00:00:00.000,2020-07-19T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,No,Missing
+725,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"American Indian/Alaska Native, Non-Hispanic",No,Unknown,No,Unknown
+726,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+727,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Unknown
+728,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Unknown
+729,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Unknown
+730,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+731,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,Yes,Unknown,No,Yes
+732,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+733,2020-07-10T00:00:00.000,2020-07-20T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,Yes
+734,2020-07-10T00:00:00.000,2020-07-21T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Asian, Non-Hispanic",No,Missing,Missing,Yes
+735,2020-07-10T00:00:00.000,2020-07-21T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,Yes
+736,2020-07-10T00:00:00.000,2020-07-21T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Unknown,No,Yes
+737,2020-07-10T00:00:00.000,2020-07-21T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Unknown,No,Yes
+738,2020-07-10T00:00:00.000,2020-07-21T00:00:00.000,,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Missing
+739,2020-07-10T00:00:00.000,2020-07-21T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+740,2020-07-10T00:00:00.000,2020-07-22T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Asian, Non-Hispanic",Yes,No,No,No
+741,2020-07-10T00:00:00.000,2020-07-22T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",No,Unknown,No,No
+742,2020-07-10T00:00:00.000,2020-07-22T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+743,2020-07-10T00:00:00.000,2020-07-22T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,Yes
+744,2020-07-10T00:00:00.000,2020-07-22T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",Unknown,Unknown,No,Unknown
+745,2020-07-10T00:00:00.000,2020-07-23T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Yes
+746,2020-07-10T00:00:00.000,2020-07-23T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+747,2020-07-10T00:00:00.000,2020-07-23T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,Yes,No,Yes
+748,2020-07-10T00:00:00.000,2020-07-23T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",Yes,No,No,No
+749,2020-07-10T00:00:00.000,2020-07-23T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Yes
+750,2020-07-10T00:00:00.000,2020-07-24T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,Yes,Yes,Yes
+751,2020-07-10T00:00:00.000,2020-07-24T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+752,2020-07-10T00:00:00.000,2020-07-24T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+753,2020-07-10T00:00:00.000,2020-07-24T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+754,2020-07-10T00:00:00.000,2020-07-24T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"White, Non-Hispanic",No,No,No,Yes
+755,2020-07-10T00:00:00.000,2020-07-25T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,No,No,No,Missing
+756,2020-07-10T00:00:00.000,2020-07-26T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,"Black, Non-Hispanic",No,No,No,Yes
+757,2020-07-10T00:00:00.000,2020-09-02T00:00:00.000,2020-07-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Hispanic/Latino,Yes,No,Missing,Yes
+758,2020-07-10T00:00:00.000,,2020-07-01T00:00:00.000,Laboratory-confirmed case,Missing,60 - 69 Years,"White, Non-Hispanic",No,Missing,No,Missing
+759,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Yes,Missing,Missing,Missing
+760,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+761,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,No,No,Yes
+762,2020-07-10T00:00:00.000,,2020-07-05T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Unknown,No,Yes
+763,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+764,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Yes,No,No,Missing
+765,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+766,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Unknown,Unknown,No,Missing
+767,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Yes,No,No,Missing
+768,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+769,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+770,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+771,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Yes,No,No,Missing
+772,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+773,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Yes,No,No,Missing
+774,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+775,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+776,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Yes,Missing,Missing,Missing
+777,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+778,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+779,2020-07-10T00:00:00.000,,2020-06-22T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+780,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+781,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+782,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+783,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",Missing,Missing,Missing,Missing
+784,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+785,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Unknown,60 - 69 Years,"Asian, Non-Hispanic",Missing,Missing,Missing,Missing
+786,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+787,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+788,2020-07-10T00:00:00.000,,2020-06-29T00:00:00.000,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+789,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+790,2020-07-10T00:00:00.000,,2020-07-02T00:00:00.000,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Yes,Missing,No,Missing
+791,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",No,Missing,No,Missing
+792,2020-07-10T00:00:00.000,,2020-06-30T00:00:00.000,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Yes,Missing,Missing,Missing
+793,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+794,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+795,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+796,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+797,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+798,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+799,2020-07-10T00:00:00.000,,2020-06-24T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Yes,Missing,No,Missing
+800,2020-07-10T00:00:00.000,,2020-07-04T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",No,Missing,Missing,Missing
+801,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+802,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,Missing,Missing
+803,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",Missing,Missing,No,Missing
+804,2020-07-10T00:00:00.000,,2020-06-27T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"American Indian/Alaska Native, Non-Hispanic",No,Missing,No,Missing
+805,2020-07-10T00:00:00.000,,2020-06-07T00:00:00.000,Laboratory-confirmed case,Unknown,60 - 69 Years,"White, Non-Hispanic",No,Unknown,No,Yes
+806,2020-07-10T00:00:00.000,,2020-06-23T00:00:00.000,Laboratory-confirmed case,Unknown,60 - 69 Years,"White, Non-Hispanic",No,Missing,Unknown,Missing
+807,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+808,2020-07-10T00:00:00.000,,2020-04-06T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",Yes,No,No,Yes
+809,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",Yes,Missing,Missing,Missing
+810,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+811,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+812,2020-07-10T00:00:00.000,,2020-07-05T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+813,2020-07-10T00:00:00.000,,2020-06-30T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+814,2020-07-10T00:00:00.000,,2020-07-03T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+815,2020-07-10T00:00:00.000,,2020-07-05T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+816,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+817,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",Yes,Missing,No,Missing
+818,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+819,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,No,Missing
+820,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+821,2020-07-10T00:00:00.000,,2020-07-03T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+822,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+823,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+824,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+825,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+826,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+827,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+828,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+829,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,No,Missing
+830,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+831,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+832,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+833,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+834,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+835,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+836,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+837,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+838,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+839,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+840,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+841,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,Missing,Missing
+842,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+843,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+844,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+845,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+846,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+847,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+848,2020-07-10T00:00:00.000,,2020-06-23T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,No,Missing
+849,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+850,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+851,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+852,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,Unknown,Missing
+853,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+854,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+855,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+856,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+857,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+858,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+859,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+860,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+861,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+862,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+863,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+864,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+865,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+866,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+867,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Unknown,No,Missing
+868,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+869,2020-07-10T00:00:00.000,,2020-06-25T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+870,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+871,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+872,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+873,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+874,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+875,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+876,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+877,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Unknown,Missing
+878,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+879,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+880,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+881,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+882,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+883,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+884,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+885,2020-07-10T00:00:00.000,,2020-07-01T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+886,2020-07-10T00:00:00.000,,2020-06-20T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,No,Missing
+887,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+888,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+889,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+890,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+891,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+892,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+893,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+894,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+895,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+896,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+897,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+898,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+899,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+900,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+901,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+902,2020-07-10T00:00:00.000,,2020-06-26T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+903,2020-07-10T00:00:00.000,,2020-07-05T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Unknown,No,Yes
+904,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+905,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+906,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,No,Missing
+907,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+908,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,No,No,Missing
+909,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+910,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+911,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+912,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+913,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+914,2020-07-10T00:00:00.000,,2020-07-05T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Unknown,No,Yes
+915,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+916,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+917,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+918,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,Missing,Missing
+919,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+920,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Unknown,No,Missing
+921,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+922,2020-07-10T00:00:00.000,,2020-06-25T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+923,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+924,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+925,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+926,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+927,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+928,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+929,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,Missing,Missing
+930,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,Missing,Missing
+931,2020-07-10T00:00:00.000,,2020-07-05T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Unknown,No,Yes
+932,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+933,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,No,No,Missing
+934,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+935,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+936,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+937,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,No,Missing
+938,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,No,Missing
+939,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+940,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+941,2020-07-10T00:00:00.000,,2020-06-22T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,No,Missing
+942,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,Unknown,Missing
+943,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+944,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+945,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+946,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+947,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+948,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+949,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+950,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+951,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+952,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+953,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+954,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Missing,No,Missing
+955,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+956,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,Missing,Missing
+957,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+958,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+959,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+960,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+961,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+962,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+963,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+964,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+965,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+966,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+967,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+968,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+969,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+970,2020-07-10T00:00:00.000,,2020-07-06T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Unknown,No,Yes
+971,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+972,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+973,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+974,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+975,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+976,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+977,2020-07-10T00:00:00.000,,2020-07-01T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+978,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+979,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+980,2020-07-10T00:00:00.000,,2020-06-22T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+981,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+982,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+983,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+984,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+985,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+986,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+987,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,No,Missing,No,Missing
+988,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+989,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+990,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+991,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,Unknown,Missing
+992,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,No,No,Missing
+993,2020-07-10T00:00:00.000,,2020-06-28T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+994,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+995,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+996,2020-07-10T00:00:00.000,,2020-07-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+997,2020-07-10T00:00:00.000,,2020-07-03T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+998,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+999,2020-07-10T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing

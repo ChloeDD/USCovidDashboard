@@ -1,0 +1,18 @@
+,cdc_report_dt,pos_spec_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn
+0,2020-02-10T00:00:00.000,2020-02-10T00:00:00.000,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Yes,No,No,No
+1,2020-02-10T00:00:00.000,2020-07-26T00:00:00.000,2020-02-10T00:00:00.000,Probable Case,Female,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,No
+2,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Asian, Non-Hispanic",No,Missing,No,Missing
+3,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Laboratory-confirmed case,Male,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,Missing
+4,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"White, Non-Hispanic",No,Missing,No,Missing
+5,2020-02-10T00:00:00.000,2020-05-06T00:00:00.000,,Laboratory-confirmed case,Female,70 - 79 Years,"White, Non-Hispanic",Yes,No,No,Yes
+6,2020-02-10T00:00:00.000,2020-04-23T00:00:00.000,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Hispanic/Latino,No,Unknown,No,Yes
+7,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,0 - 9 Years,Unknown,Yes,Unknown,No,Missing
+8,2020-02-10T00:00:00.000,2020-04-23T00:00:00.000,,Laboratory-confirmed case,Male,80+ Years,Unknown,Yes,Unknown,Yes,Unknown
+9,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,No,Missing
+10,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Probable Case,Male,50 - 59 Years,"White, Non-Hispanic",No,Missing,No,No
+11,2020-02-10T00:00:00.000,2020-04-15T00:00:00.000,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,No
+12,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Laboratory-confirmed case,Male,20 - 29 Years,"Black, Non-Hispanic",No,Missing,No,Missing
+13,2020-02-10T00:00:00.000,2020-03-17T00:00:00.000,,Laboratory-confirmed case,Female,80+ Years,"White, Non-Hispanic",Yes,Missing,Yes,Yes
+14,2020-02-10T00:00:00.000,,2020-02-10T00:00:00.000,Probable Case,Female,80+ Years,Unknown,Yes,Missing,Yes,Unknown
+15,2020-02-10T00:00:00.000,2020-05-20T00:00:00.000,2020-02-10T00:00:00.000,Laboratory-confirmed case,Male,10 - 19 Years,Unknown,Missing,Missing,Missing,No
+16,2020-02-10T00:00:00.000,2020-05-01T00:00:00.000,2020-02-10T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"Black, Non-Hispanic",No,Unknown,Unknown,Yes

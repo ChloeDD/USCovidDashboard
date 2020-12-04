@@ -1,0 +1,3 @@
+,cdc_report_dt,pos_spec_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn
+0,2020-01-25T00:00:00.000,2020-03-30T00:00:00.000,2020-01-25T00:00:00.000,Laboratory-confirmed case,Female,20 - 29 Years,Unknown,No,Missing,No,Missing
+1,2020-01-25T00:00:00.000,,2020-01-25T00:00:00.000,Laboratory-confirmed case,Male,30 - 39 Years,Unknown,No,Missing,No,Missing

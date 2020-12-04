@@ -1,0 +1,43 @@
+,cdc_report_dt,pos_spec_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn
+0,2020-02-17T00:00:00.000,2020-03-26T00:00:00.000,2020-02-17T00:00:00.000,Probable Case,Male,50 - 59 Years,Unknown,Missing,Missing,No,Missing
+1,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+2,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,No,No,Unknown
+3,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+4,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+5,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Yes,Unknown,No,Unknown
+6,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Unknown,Unknown,Missing,No,Missing
+7,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Male,60 - 69 Years,Unknown,Missing,Missing,Missing,Missing
+8,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,60 - 69 Years,Unknown,Yes,Yes,No,Missing
+9,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"White, Non-Hispanic",Yes,Yes,Yes,Missing
+10,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"White, Non-Hispanic",Unknown,Missing,No,Missing
+11,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,"White, Non-Hispanic",No,Missing,No,Missing
+12,2020-02-17T00:00:00.000,2020-03-30T00:00:00.000,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,20 - 29 Years,Hispanic/Latino,No,No,No,Yes
+13,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,40 - 49 Years,Unknown,No,Missing,No,Missing
+14,2020-02-17T00:00:00.000,2020-03-19T00:00:00.000,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,20 - 29 Years,Unknown,Missing,Missing,Missing,Missing
+15,2020-02-17T00:00:00.000,2020-04-17T00:00:00.000,,Laboratory-confirmed case,Male,50 - 59 Years,"Black, Non-Hispanic",Yes,Yes,Yes,Yes
+16,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,70 - 79 Years,"White, Non-Hispanic",Missing,Missing,No,Missing
+17,2020-02-17T00:00:00.000,,2020-02-13T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,No,No,No,Unknown
+18,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,Missing,Missing,Missing,Missing
+19,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,Yes,No,No,Yes
+20,2020-02-17T00:00:00.000,,2020-02-16T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,No,No,No,Unknown
+21,2020-02-17T00:00:00.000,,2020-02-15T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,No,No,No,Unknown
+22,2020-02-17T00:00:00.000,,2020-02-13T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,Yes,No,No,Yes
+23,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,Missing,Missing,No,Yes
+24,2020-02-17T00:00:00.000,,2020-02-15T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,Yes,No,No,Unknown
+25,2020-02-17T00:00:00.000,,2020-02-16T00:00:00.000,Laboratory-confirmed case,Female,70 - 79 Years,Unknown,No,No,No,Unknown
+26,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,70 - 79 Years,Unknown,No,Missing,No,Unknown
+27,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,70 - 79 Years,Unknown,No,No,No,Unknown
+28,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Male,70 - 79 Years,Unknown,No,No,No,Unknown
+29,2020-02-17T00:00:00.000,,2020-02-15T00:00:00.000,Laboratory-confirmed case,Male,70 - 79 Years,Unknown,Yes,Yes,No,Unknown
+30,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Probable Case,Male,30 - 39 Years,"White, Non-Hispanic",No,Missing,No,No
+31,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,"White, Non-Hispanic",No,Missing,No,Missing
+32,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,Unknown,Missing,No,Missing
+33,2020-02-17T00:00:00.000,2020-05-05T00:00:00.000,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,60 - 69 Years,Hispanic/Latino,No,Unknown,No,Yes
+34,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,"Asian, Non-Hispanic",Unknown,Missing,No,Missing
+35,2020-02-17T00:00:00.000,,2020-02-15T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,No,No,No,Unknown
+36,2020-02-17T00:00:00.000,,2020-01-23T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Yes,No,Missing,Yes
+37,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,Yes,No,No,Yes
+38,2020-02-17T00:00:00.000,,2020-02-16T00:00:00.000,Laboratory-confirmed case,Male,50 - 59 Years,Unknown,No,Missing,No,Unknown
+39,2020-02-17T00:00:00.000,,2020-02-17T00:00:00.000,Laboratory-confirmed case,Male,20 - 29 Years,Unknown,Unknown,Missing,No,Missing
+40,2020-02-17T00:00:00.000,2020-04-03T00:00:00.000,2020-02-17T00:00:00.000,Laboratory-confirmed case,Female,50 - 59 Years,Unknown,Missing,Missing,Missing,Missing
+41,2020-02-17T00:00:00.000,,,Laboratory-confirmed case,Male,80+ Years,Unknown,Yes,No,No,Yes

@@ -1,0 +1,6 @@
+,cdc_report_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn,pos_spec_dt
+0,2020-01-24T00:00:00.000,2020-01-24T00:00:00.000,Laboratory-confirmed case,Male,40 - 49 Years,"Asian, Non-Hispanic",No,Missing,No,Missing,
+1,2020-01-24T00:00:00.000,2020-01-24T00:00:00.000,Laboratory-confirmed case,Female,30 - 39 Years,Unknown,No,Missing,No,No,2020-03-16T00:00:00.000
+2,2020-01-24T00:00:00.000,2020-01-24T00:00:00.000,Laboratory-confirmed case,Male,60 - 69 Years,"Black, Non-Hispanic",Unknown,Unknown,Unknown,Yes,2020-04-02T00:00:00.000
+3,2020-01-24T00:00:00.000,2020-01-24T00:00:00.000,Laboratory-confirmed case,Female,20 - 29 Years,Unknown,Unknown,Missing,No,Missing,
+4,2020-01-24T00:00:00.000,2020-01-24T00:00:00.000,Laboratory-confirmed case,Female,20 - 29 Years,Unknown,Yes,No,No,Missing,

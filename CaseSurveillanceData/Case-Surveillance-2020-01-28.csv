@@ -1,0 +1,2 @@
+,cdc_report_dt,onset_dt,current_status,sex,age_group,race_ethnicity_combined,hosp_yn,icu_yn,death_yn,medcond_yn
+0,2020-01-28T00:00:00.000,2020-01-28T00:00:00.000,Probable Case,Male,30 - 39 Years,"Multiple/Other, Non-Hispanic",No,Missing,No,No
