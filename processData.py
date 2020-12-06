@@ -70,8 +70,7 @@ def consolidate_state_data():
     cols = ['Date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death',
        'submission_date', 'case fatality rate', 'State or Region Code',
        'Population', 'death rate', 'Total Cases per Population',
-       'New Cases per Population', '7 day average new cases',
-       'Adjusted Case Rate', 'Risk Level']
+       'New Cases per Population','7 day average new cases','Adjusted Case Rate','Risk Level']
     if os.path.exists('./ProdData/USDatabyStates.csv') and os.stat('./ProdData/USDatabyStates.csv').st_size > 4:
         usDataDf = pd.read_csv('./ProdData/USDatabyStates.csv')
     else:
@@ -117,25 +116,26 @@ def consolidate_state_data():
                 test['Total Cases per Population'] = test['tot_cases'] / test['Population']
                 test['New Cases per Population'] = test['new_case'] / test['Population']
                 
-                test['Date'] = test['Date'].apply(pd.to_datetime)
-                test = test.sort_values(by='Date')
-                test = test.set_index('Date')
-                
-                test['7 day average new cases'] = test.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
-                test['7 day average new cases'] = round(test['7 day average new cases'],0)
-                test['Adjusted Case Rate'] = round(100000 * test['7 day average new cases'] / test['Population'],0)
-                test = test.reset_index()
-
-                col = 'Adjusted Case Rate'
-                conditions = [(test[col] < 1.0),
-                            (test[col] >= 1.0) & (test[col] < 4.0),
-                            (test[col] >= 4.0) & (test[col] < 7.0),
-                            (test[col] >= 7.0)]
-                values = ['Minimal Tier 4', 'Moderate Tier 3', 'Substantial Tier 2', 'Widespread Tier 1']
-                test['Risk Level'] = np.select(conditions, values)
-                test = test.dropna(subset=['Population', 'State or Region Code'])
-                
                 usDataDf = usDataDf.append(test[cols])
+
+        usDataDf['Date'] = usDataDf['Date'].apply(pd.to_datetime)
+        usDataDf = usDataDf.sort_values(by='Date')
+        usDataDf = usDataDf.set_index('Date')
+
+        usDataDf['7 day average new cases'] = usDataDf.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
+        usDataDf['7 day average new cases'] = round(usDataDf['7 day average new cases'],0)
+        usDataDf['Adjusted Case Rate'] = round(100000 * usDataDf['7 day average new cases'] / usDataDf['Population'],0)
+        usDataDf = usDataDf.reset_index()
+
+        col = 'Adjusted Case Rate'
+        conditions = [(usDataDf[col] < 1.0),
+                    (usDataDf[col] >= 1.0) & (usDataDf[col] < 4.0),
+                    (usDataDf[col] >= 4.0) & (usDataDf[col] < 7.0),
+                    (usDataDf[col] >= 7.0)]
+        values = ['Minimal Tier 4', 'Moderate Tier 3', 'Substantial Tier 2', 'Widespread Tier 1']
+        usDataDf['Risk Level'] = np.select(conditions, values)
+        usDataDf = usDataDf.dropna(subset=['Population', 'State or Region Code'])
+
 
         prod_data_folder = './ProdData'
         if not os.path.exists(prod_data_folder):
