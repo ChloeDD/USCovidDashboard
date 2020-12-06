@@ -67,95 +67,115 @@ def consolidate_state_data():
     """combine daily files to one consolidated file """
 
     path = './StateData'
-    usDataDf = pd.DataFrame(
-        columns=[
-            'Date',
-            'state',
-            'tot_cases',
-            'new_case',
-            'tot_death',
-            'new_death'])
-    for file in os.listdir('./StateData'):
-        if os.stat(os.path.join(path,file)).st_size <= 4:
-            glog.info('File {} is empty'.format(file))
-        else:
-            dt = os.path.basename(file).split('.')[0][-10:]
-            df = pd.read_csv(os.path.join(path, file))
-            df['Date'] = dt
-            
-            df[['tot_cases', 'new_case', 'tot_death', 'new_death']] = df[[
-                'tot_cases', 'new_case', 'tot_death', 'new_death']].apply(pd.to_numeric)
-            df.loc['US'] = df.sum(numeric_only=True)
-            df.loc['US', 'state'] = 'US'
-            df.loc['US', 'Date'] = dt
-            df.loc['US', 'submission_date'] = dt
-            usDataDf = usDataDf.append(
-                df[['Date', 'submission_date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death']])
+    cols = ['Date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death',
+       'submission_date', 'case fatality rate', 'State or Region Code',
+       'Population', 'death rate', 'Total Cases per Population',
+       'New Cases per Population', '7 day average new cases',
+       'Adjusted Case Rate', 'Risk Level']
+    if os.path.exists('./ProdData/USDatabyStates.csv') and os.stat('./ProdData/USDatabyStates.csv').st_size > 4:
+        usDataDf = pd.read_csv('./ProdData/USDatabyStates.csv')
+    else:
+        usDataDf = pd.DataFrame(columns=cols)
 
-    usDataDf['case fatality rate'] = usDataDf['tot_death'].astype(float) / usDataDf['tot_cases'].astype(float)
-    usDataDf['case fatality rate'] = usDataDf['case fatality rate'].fillna(0)
-
-    pop = process_population_data('./data/pop.html')
-    newrow = {'State or Region Code': 'NYC', 'Population': 8336817}
-    pop = pop.append(newrow, ignore_index=True)
-    test = pd.merge(
-        left=usDataDf,
-        right=pop,
-        left_on='state',
-        right_on='State or Region Code',
-        how='outer')
-
-    test['death rate'] = round((100.0*test['tot_death'].astype(float)) / test['Population'],8)
-    test['death rate'] = test['death rate'].fillna(0)
-
-    test['Total Cases per Population'] = test['tot_cases'] / test['Population']
-    test['New Cases per Population'] = test['new_case'] / test['Population']
+    datelist = usDataDf.Date.unique()
+    stateDataDtList = [os.path.basename(file).split('.')[0][-10:] for file in os.listdir('./StateData')]
+    missingdates = [i for i in stateDataDtList if i not in datelist]
+    missingFiles = ['US-State-Data-{}.csv'.format(dt) for dt in missingdates]
     
-    test['Date'] = test['Date'].apply(pd.to_datetime)
-    test = test.sort_values(by='Date')
-    test = test.set_index('Date')
-    
-    test['7 day average new cases'] = test.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
-    test['7 day average new cases'] = round(test['7 day average new cases'],0)
-    test['Adjusted Case Rate'] = round(100000 * test['7 day average new cases'] / test['Population'],0)
-    test = test.reset_index()
+    if len(missingFiles)>0:
+        for file in missingFiles:
+            if os.stat(os.path.join(path,file)).st_size <= 4:
+                glog.info('File {} is empty'.format(file))
+            else:
+                dt = os.path.basename(file).split('.')[0][-10:]
+                df = pd.read_csv(os.path.join(path, file))
+                df['Date'] = dt
+                
+                df[['tot_cases', 'new_case', 'tot_death', 'new_death']] = df[[
+                    'tot_cases', 'new_case', 'tot_death', 'new_death']].apply(pd.to_numeric)
+                df.loc['US'] = df.sum(numeric_only=True)
+                df.loc['US', 'state'] = 'US'
+                df.loc['US', 'Date'] = dt
+                df.loc['US', 'submission_date'] = dt
 
-    col = 'Adjusted Case Rate'
-    conditions = [(test[col] < 1.0),
-                  (test[col] >= 1.0) & (test[col] < 4.0),
-                  (test[col] >= 4.0) & (test[col] < 7.0),
-                  (test[col] >= 7.0)]
-    values = ['Minimal Tier 4', 'Moderate Tier 3', 'Substantial Tier 2', 'Widespread Tier 1']
-    test['Risk Level'] = np.select(conditions, values)
-    test = test.dropna(subset=['Population', 'State or Region Code'])
+                df['case fatality rate'] = df['tot_death'].astype(float) / df['tot_cases'].astype(float)
+                df['case fatality rate'] = df['case fatality rate'].fillna(0)
+                
+                pop = process_population_data('./data/pop.html')
+                newrow = {'State or Region Code': 'NYC', 'Population': 8336817}
+                pop = pop.append(newrow, ignore_index=True)
+                test = pd.merge(
+                    left=df,
+                    right=pop,
+                    left_on='state',
+                    right_on='State or Region Code',
+                    how='outer')
 
-    prod_data_folder = './ProdData'
-    if not os.path.exists(prod_data_folder):
-        os.makedirs(prod_data_folder)
-    test.to_csv('{}/USDatabyStates.csv'.format(prod_data_folder))
+                test['death rate'] = round((100.0*test['tot_death'].astype(float)) / test['Population'],8)
+                test['death rate'] = test['death rate'].fillna(0)
 
-    return test
+                test['Total Cases per Population'] = test['tot_cases'] / test['Population']
+                test['New Cases per Population'] = test['new_case'] / test['Population']
+                
+                test['Date'] = test['Date'].apply(pd.to_datetime)
+                test = test.sort_values(by='Date')
+                test = test.set_index('Date')
+                
+                test['7 day average new cases'] = test.groupby('state')['new_case'].transform(lambda x: x.rolling(7, 1).mean())
+                test['7 day average new cases'] = round(test['7 day average new cases'],0)
+                test['Adjusted Case Rate'] = round(100000 * test['7 day average new cases'] / test['Population'],0)
+                test = test.reset_index()
+
+                col = 'Adjusted Case Rate'
+                conditions = [(test[col] < 1.0),
+                            (test[col] >= 1.0) & (test[col] < 4.0),
+                            (test[col] >= 4.0) & (test[col] < 7.0),
+                            (test[col] >= 7.0)]
+                values = ['Minimal Tier 4', 'Moderate Tier 3', 'Substantial Tier 2', 'Widespread Tier 1']
+                test['Risk Level'] = np.select(conditions, values)
+                test = test.dropna(subset=['Population', 'State or Region Code'])
+                
+                usDataDf = usDataDf.append(test[cols])
+
+        prod_data_folder = './ProdData'
+        if not os.path.exists(prod_data_folder):
+            os.makedirs(prod_data_folder)
+        usDataDf[cols].to_csv('{}/USDatabyStates.csv'.format(prod_data_folder), index=False)
+
+    return usDataDf
 
 
 def consolidate_case_surv_data():
     """ consolidate case surveillance data"""
 
     path = './CaseSurveillanceData'
-    cols = ['cdc_report_dt', 'onset_dt', 'current_status', 'sex',
+    cols = ['Date','cdc_report_dt', 'onset_dt', 'current_status', 'sex',
        'age_group', 'race_ethnicity_combined', 'hosp_yn', 'icu_yn', 'death_yn',
        'medcond_yn']
 
-    cons_df = pd.DataFrame(columns=cols)
-    for file in os.listdir(path):
-        if os.stat(os.path.join(path,file)).st_size <= 4:
-            glog.info('File {} is empty'.format(file))
+    if os.path.exists('./ProdData/CaseSurvData.csv') and os.stat('./ProdData/CaseSurvData.csv').st_size > 4:
+        cons_df = pd.read_csv('./ProdData/CaseSurvData.csv')
+    else:
+        cons_df = pd.DataFrame(columns=cols)
+
+    datelist = cons_df.Date.unique()
+    caseDataDtList = [os.path.basename(file).split('.')[0][-10:] for file in os.listdir(path)]
+    missingdates = [i for i in caseDataDtList if i not in datelist]
+    missingFiles = ['Case-Surveillance-{}.csv'.format(dt) for dt in missingdates]
+
+    # cons_df = pd.DataFrame(columns=cols)
+    if len(missingFiles)>0:
+        for file in missingFiles:
+            if os.stat(os.path.join(path,file)).st_size <= 4:
+                glog.info('File {} is empty'.format(file))
+                
+            else:
+                dt = os.path.basename(file).split('.')[0][-10:]
+                df = pd.read_csv(os.path.join(path, file))
+                df['Date'] = dt
             
-        else:
-            dt = os.path.basename(file).split('.')[0][-10:]
-            df = pd.read_csv(os.path.join(path, file))
-            df['Date'] = dt
-          
-            cons_df = cons_df.append(df[cols])
+                cons_df = cons_df.append(df[cols])
     
+        cons_df.to_csv('./ProdData/CaseSurvData.csv', index=False)
     
     return cons_df
