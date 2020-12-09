@@ -70,7 +70,7 @@ def consolidate_state_data():
     cols = ['Date', 'state', 'tot_cases', 'new_case', 'tot_death', 'new_death',
        'submission_date', 'case fatality rate', 'State or Region Code',
        'Population', 'death rate', 'Total Cases per Population',
-       'New Cases per Population','7 day average new cases','Adjusted Case Rate','Risk Level']
+       'New Cases per Population']
     if os.path.exists('./ProdData/USDatabyStates.csv') and os.stat('./ProdData/USDatabyStates.csv').st_size > 4:
         usDataDf = pd.read_csv('./ProdData/USDatabyStates.csv')
     else:
@@ -140,6 +140,8 @@ def consolidate_state_data():
         prod_data_folder = './ProdData'
         if not os.path.exists(prod_data_folder):
             os.makedirs(prod_data_folder)
+        
+        cols += ['7 day average new cases','Adjusted Case Rate','Risk Level']
         usDataDf[cols].to_csv('{}/USDatabyStates.csv'.format(prod_data_folder), index=False)
 
     return usDataDf
@@ -163,7 +165,6 @@ def consolidate_case_surv_data():
     missingdates = [i for i in caseDataDtList if i not in datelist]
     missingFiles = ['Case-Surveillance-{}.csv'.format(dt) for dt in missingdates]
 
-    # cons_df = pd.DataFrame(columns=cols)
     if len(missingFiles)>0:
         for file in missingFiles:
             if os.stat(os.path.join(path,file)).st_size <= 4:
